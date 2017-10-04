@@ -1,79 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <link rel="stylesheet" type="text/css" href="index.css"/>
+        <link rel="stylesheet" type="text/css" href="stylesheet.css"/>
+        <script src="index.js"></script>
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
          <meta charset="UTF-8">
         <title>Anna Rosenberg</title>
     </head>
 
     <body>
-        <section class="page-container">
-        <header>
-            <section class="avatar">
-                <a href="index.html">
-                <img src="pictures/profile.jpg" alt="profile.jpg" id="Portrait" width="258" height:"258"/>        
-                </a>      
-            </section>
-            <section class="logo">
-                <h1> <img src="pictures/logo.png" alt="logo.png" id="Logo" width="300" height:"258"/>  </h1>
-            </section>
-            <nav class="navbar">
-                <!--
-                <ul>
-                    <li class="home">Home</li>
-                    <li class="game-design">Games</li>
-                    <li class="art">Art</li>
-                    <li class="resume">Resume</li>
-                    <li class="about-me">About Me</li>
-                </ul>-->
-                <span>Designer</span>
-                <span>Developer</span>
-            </nav>        
-        </header>
-
-        <div id="content">     
-            <!-- main content using lists -->
-            <ul id="home">
-                <li class="link-gamedesign">
-                    <a href="game-design.html">
-                    <span class="icon"></span>
-                    <span class="title">Games</span>
-                    </a>
-                </li>
-                <li class="link-art">
-                    <a href="art.html">
-                    <span class="icon"></span>
-                    <span class="title">Art</span>
-                    </a>
-                </li>
-                <li class="link-resume">
-                    <a href="resume/Anna Rosenberg.pdf">
-                    <span class="icon"></span>
-                    <span class="title">Resume</span>
-                    </a>
-                </li>
-                <li class="link-aboutme">
-                    <a href="about-me.html">
-                    <span class="icon"></span>
-                    <span class="title">About Me</span>
-                    </a>
-                </li>
+        <div id ="title">
+            <h1>Anna Rosenberg</h1>
+        </div>
+        <div id ="buttons">
+            <ul>
+                <li><button id="button1" onclick="window.location.href='graphic1.html'">Projects</button></li>
+                <li><button id="button2" onclick="window.location.href='graphics/anna_rosenberg.pdf'">Resume</button></li>
+                <li><button id="button3" onclick="window.location.href='graphic3.html'">Contact</button></li>
             </ul>
         </div>
-        <div id="bottom">
-            <ul id="bottom-nav">
-                <li><a href="https://www.linkedin.com/in/anna-rosenberg/"><img src="icons/LinkedInFill.png" alt="linkedin" id="linkedin" width="40" height:"40"/></a></li>
-                <!--<a href="https://icons8.com/web-app/38388/Git">Git icon credits</a>-->
-                <li><a href="https://github.com/anr6921?tab=repositories"><img src="icons/GitFilled.png" alt="git" id="git" width="45" height:"45"/></a></li>
-                <li><a href="https://devpost.com/anr6921?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav"><img src="icons/Devfilled.png" alt="devpost" id="dev" width="45" height:"45"/></a></li>
-            </ul>
-        <section id="copyright" style="padding-top: 40px;">&copy; Anna Rosenberg 2017</section>
-
+        <div id="bottom">              
+            <!--<a href="documentation.html" style="font-family: 'Raleway', sans-serif;">Documentation</a>-->     
         </div>
-           
-        </section>
 
     </body>
-
 </html>
