@@ -1,0 +1,77 @@
+***************************************************************
+
+		  *DON'T EAT THE YELLOW SNOW*
+
+			 ANNA ROSENBERG
+
+***************************************************************
+
+CHANGES
+
+My project is quite different than what I initially planned on doing. I started off using Node.js with the intention to make a multiplayer game hosted on a server. I was able to get multiple players on the canvas through the server, however, I quickly realised I did not have the time I needed to turn this into a full game. I almost completely started over to create DON'T EAT THE YELLOW SNOW.
+
+
+***REQUIREMENTS***
+
+1) MEDIA
+	SOUND
+	-background music loops
+	-sound effect when eating yellow snow
+	-all sounds are MP3s
+	-I used royalty free sounds I found online (:
+	IMAGES
+	-I created all the art assets myself. 
+	-All images are PNG format
+	TEXT
+	-Theme appropriate, easy to read
+	CANVAS
+	-everything is drawn on the canvas
+	-Mulitple images are drawn onto the canvas
+	-I used spritesheets for player character
+	-Smoothed using requestAnimationFrame and delta time
+	-Graphics are heck'n sick
+
+
+2) INTERACTION
+	-Control using WASD and arrow keys to move Dewey
+	-Switch to dark mode using the drop down
+		
+3) USABILITY
+	- custom pause screen 
+	- instructions page
+	- score and health visible
+	- easy to play
+	- switch states by clicking 
+	- Four states: Title, instructions, main game, game over
+
+4) EXPERIENCE
+	- Though it's very different from my original plan, the game still has same movement mechanics as well as concept.
+
+5) CODING
+	- I did not use any libraries
+	- Loads in images
+	- Uses object literals
+	- Uses module pattern
+	- New function constructors including snow, yellow snow, and player.
+	- uses strict
+	- new operator is followed by capitalized constructor
+	- lowercase for everything else
+	- uses semicolons;
+	- uses var for variable declaration
+	- commented appropriately
+
+ABOVE AND BEYOND!
+I did all of the art myself, which probably took as much time as coding the project itself. This was my first time doing pixel art, so I had fun teaching myself.
+
+WHAT WENT RIGHT
+The final product looks great, and the idea behind it is humorous. I was able to scope down my project in order to achieve this more complete product. Also, I created all of the assets so this game is visually unique.
+
+WHAT WENT WRONG
+Because I completely started over, there was less time to finish than I would've liked. If I had more time, I would add better player animation as well as some animation for when Dewey eats the yellow snow.
+
+NON-COURSE RESOURCES
+Sound effects: http://soundbible.com/
+Background music: http://www.purple-planet.com/
+Sprite animation tutorial: http://www.williammalone.com/articles/create-html5-canvas-javascript-sprite-animation/
+
+My sprite animation code is based off a tutorial from wlliammalone.com
