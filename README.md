@@ -1,7 +1,7 @@
 # Portfolio
 
 *** WORK IN PROGRESS *** <br>
-This is my personal portfolio website. I chose to create my portfolio from scratch to show my proficiency in front end development as well as UI/UX design.
+This is my personal portfolio website. I chose to create my portfolio from scratch to show my proficiency in web development as well as UI/UX design.
 
 ## Changes to come:
 - [x] Contact page with links to GitHub and Linkedin
