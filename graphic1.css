@@ -8,25 +8,6 @@
 #bottom{
 	margin-top: 20px;
 }
-/* graphic css */
-/*
-.container {
-	width: 30%;
-	min-width: 300px;
-	height: 200px;
-	padding-top: 100px;
-	padding-bottom: 100px;
-	margin: 0 auto;
-	margin-bottom: 20px;
-    border-radius: 15px;
-	background-color: #666666;
-	/* SVG background courtesy of www.heropatterns.com 
-	background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='#bfbfbf' fill-opacity='0.4'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-}
-body{
-	margin-bottom: 20px;
-}
-*/
 
 /* POPUP BOX https://codepen.io/imprakash/pen/GgNMXO?q=css+popup&limit=all&type=type-pens */
 .box {
@@ -49,9 +30,6 @@ body{
   text-decoration: none;
   cursor: pointer;
   transition: all 0.3s ease-out;
-}
-.button:hover {
-  background: #06D85F;
 }
 
 .overlay {
