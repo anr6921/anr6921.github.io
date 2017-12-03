@@ -8,4 +8,5 @@ This is my personal portfolio website. I chose to create my portfolio from scrat
 - [ ] JSON file of projects
 - [ ] Projects.JSON parsed in via JavaScript
 - [ ] Create page for canvas game
+- [ ] Custom Domain
 
