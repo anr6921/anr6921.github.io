@@ -9,6 +9,9 @@
 	margin-top: 20px;
 }
 
+#header:hover{
+    cursor: pointer;
+}
 /* POPUP BOX https://codepen.io/imprakash/pen/GgNMXO?q=css+popup&limit=all&type=type-pens */
 .box {
   width: 40%;
